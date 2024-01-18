@@ -1,10 +1,10 @@
-package com.chandimal.springboot.cruddemo.dao;
+package com.chandimal.springboot.cruddemo.service;
 
 import com.chandimal.springboot.cruddemo.Entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
 
     List<Employee> findAll();
 
